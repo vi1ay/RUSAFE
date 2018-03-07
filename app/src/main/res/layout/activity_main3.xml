@@ -5,15 +5,88 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.admin.rusafe.Main3Activity">
+
     <TextView
         android:id="@+id/petrol"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="59dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="73dp"
         android:text="Petrol:"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="73dp" />
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/petrol"
+        android:layout_alignStart="@+id/petrol"
+        android:layout_below="@+id/petroltxt"
+        android:layout_marginTop="38dp"
+        android:text="Rate:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/petrol"
+        android:layout_alignRight="@+id/petrol"
+        android:layout_below="@+id/ratetxt"
+        android:layout_marginTop="50dp"
+        android:text="Speed:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/petroltxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/petrol"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ratetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rate"
+        android:layout_alignLeft="@+id/petroltxt"
+        android:layout_alignStart="@+id/petroltxt"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/speedtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/speed"
+        android:layout_alignLeft="@+id/ratetxt"
+        android:layout_alignStart="@+id/ratetxt"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/speedtxt"
+        android:layout_alignStart="@+id/speedtxt"
+        android:layout_below="@+id/speedtxt"
+        android:layout_marginTop="72dp"
+        android:text="See You"
+        android:textSize="24sp" />
+
 
 
 

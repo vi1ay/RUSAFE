@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.admin.rusafe.MainActivity">
+    tools:context="com.example.admin.rusafe.Login">
 
     <EditText
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="41dp"
-        android:layout_alignLeft="@+id/i"
+        android:layout_alignLeft="@+id/password"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/i"
+        android:layout_alignStart="@+id/password"
         android:layout_marginTop="92dp"
         android:ems="10"
         android:hint="Name"
@@ -35,7 +35,7 @@
         tools:layout_editor_absoluteY="209dp" />
 
     <EditText
-        android:id="@+id/i"
+        android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -50,6 +50,17 @@
         tools:layout_editor_absoluteX="85dp"
         tools:layout_editor_absoluteY="283dp" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/password"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginTop="50dp"
+        android:text="LOGIN" />
 
 
 </RelativeLayout>

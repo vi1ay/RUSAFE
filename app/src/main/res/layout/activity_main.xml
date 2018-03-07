@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.rusafe.MainActivity">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignLeft="@+id/i"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/i"
+        android:layout_marginTop="92dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text|textCapCharacters|textCapWords"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignStart="@+id/name"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:hint="PH number"
+        android:inputType="textPersonName|number|phone"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <EditText
+        android:id="@+id/i"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/number"
+        android:layout_marginLeft="68dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="53dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="text|textPassword|number|numberPassword"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+
+
+</RelativeLayout>
